@@ -1,0 +1,64 @@
+
+*{
+	background: black;
+}
+
+
+#contenedorP
+{
+  background: white;
+  border-color: red;
+
+}
+
+#izquierda
+{
+	background: white;
+	width: 48%;
+	height: 300px;
+	
+}
+#derecha
+{
+	background: white;
+	width: 48%;
+	height: 300px;
+
+}
+
+#izquierda,#derecha
+{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding-top:10px;
+
+}
+#contenido
+{
+	background: white;
+	font-size: 12px;
+	color: black;
+}
+#contenido2
+{
+	background: white;
+	font-size: 12px;
+	color: black;
+}
+p
+{
+	background: white;
+	font-size: 30px;
+	color: black;
+	margin:10px;
+	text-align: center;
+}
+}
+
+img
+{
+	text-align: center;
+
+
+}
