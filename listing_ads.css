@@ -6,7 +6,6 @@
 {
   background: white;
 }
-
 #left
 {
 	background: white;
@@ -19,7 +18,6 @@
 	width: 48%;
 	height: 300px;
 }
-
 #left,#right
 {
 	display: inline-block;
@@ -50,7 +48,4 @@ p
 img
 {
 	text-align: center;
-
-
-
 }
