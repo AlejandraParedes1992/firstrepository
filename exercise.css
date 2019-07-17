@@ -1,0 +1,120 @@
+#content {
+  margin: auto;
+  width: 90%;
+  height: 267px;
+  background: #cecece;
+  position: relative;
+  top: 40px;
+  padding-top: 4px;
+}  
+.file {
+  width: 90%;
+  height:70px;
+  background: white;
+  margin-top: 10px;
+  position: relative;
+  left: 20px;
+  margin-top: 10px;
+}
+.container1 {
+  width: 60%;
+  height:70px;
+  background: white;
+  float:left;
+  padding-left: 8px;
+}
+.container2 {
+  width: 30%;
+  height: 67px;
+  background: white;
+  float: right;
+}
+.container2,.container1 {
+  display: inline-block;
+  color: rgb(74, 74, 74);
+}
+.separator {
+  width: 5%;
+  height: 40px;
+  border-left: 1px solid #cecece;
+  margin-top: 14px;
+  float: left;
+}
+.containerAmount {
+  width: 25%;
+  height: 60px;
+  font-size: 9px;
+  position: absolute;
+  float: right;
+}
+.separator, .containerAmount {
+  display: inline-block;
+}
+.paymentAmount {
+
+  margin-top: 30px;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color:rgb(141, 122, 255);
+  font-size: 14px;
+}
+.paymentType {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+  font-size: 18px;
+}
+.date {
+  color: rgb(155, 155, 155)
+  font-size:14px;
+}
+.date, .paymentType{
+  display: inline-block;
+ 
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {   
+body{  
+
+}  
+#content {
+  margin-left: 40px;
+}
+.file {
+  margin-left: 60px;
+}
+.date {
+  font-size: 14px;
+}
+.paymentType {
+  font-size: 12px;
+}
+ .containerAmount {
+  font-size: 14px;
+}
+} 
+ @media screen and (min-width: 600px) and (max-width: 1900px) {   
+body{  
+}  
+.containerAmount {
+  font-size: 16px;
+}
+a {
+  font-size: 16px;
+}
+.date {
+  font-size: 12px;
+}
+.paymentType {
+  font-size: 14px;
+}
+#content {
+  margin: auto;
+  width: 90%;
+  height: 320px;
+}
+.file {
+  width: 90%;
+  height:90px;
+  margin-left: 24px;
+}

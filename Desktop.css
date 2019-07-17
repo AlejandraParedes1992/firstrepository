@@ -1,0 +1,58 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {   
+body{  
+
+}  
+#content
+{
+  margin-left: 40px;
+}
+.file
+{
+  margin-left: 60px;
+}
+ .date
+ {
+  font-size: 14px;
+ }
+ .date2
+ {
+  font-size: 12px;
+ }
+ .linea2
+ {
+  font-size: 14px;
+ }
+ } 
+ @media screen and (min-width: 600px) and (max-width: 1900px) {   
+body{  
+}  
+.file
+{
+  margin-left: 24px;
+}
+.linea2
+{
+  font-size: 16px;
+}
+a{
+  font-size: 16px;
+}
+.date
+{
+  font-size: 12px;
+}
+.date2
+{
+  font-size: 14px;
+}
+#content
+{
+  margin: auto;
+  width: 90%;
+  height: 320px;
+}
+.file
+{
+  width: 90%;
+  height:90px;
+}
