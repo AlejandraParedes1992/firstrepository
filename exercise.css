@@ -58,16 +58,16 @@
 a {
   text-decoration: none;
   color:rgb(141, 122, 255);
-  font-size: 14px;
+  font-size: 10px;
 }
 .paymentType {
   font-weight: bold;
   color: rgb(74, 74, 74);
-  font-size: 18px;
+  font-size: 10px;
 }
 .date {
-  color: rgb(155, 155, 155)
-  font-size:14px;
+  color: rgb(155, 155, 155);
+  font-size: 9px;
 }
 .date, .paymentType{
   display: inline-block;
@@ -83,31 +83,16 @@ body{
 .file {
   margin-left: 60px;
 }
-.date {
-  font-size: 14px;
+a {
+  font-size: 18px;
 }
 .paymentType {
-  font-size: 12px;
-}
- .containerAmount {
-  font-size: 14px;
+  font-size: 18px;
 }
 } 
  @media screen and (min-width: 600px) and (max-width: 1900px) {   
 body{  
 }  
-.containerAmount {
-  font-size: 16px;
-}
-a {
-  font-size: 16px;
-}
-.date {
-  font-size: 12px;
-}
-.paymentType {
-  font-size: 14px;
-}
 #content {
   margin: auto;
   width: 90%;
@@ -117,4 +102,11 @@ a {
   width: 90%;
   height:90px;
   margin-left: 24px;
+}
+a {
+  font-size: 18px;
+}
+.paymentType {
+  
+  font-size: 10px;
 }
